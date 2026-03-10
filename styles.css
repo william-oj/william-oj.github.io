@@ -139,6 +139,20 @@ h1 {
   margin: 0;
 }
 
+.section-subhead {
+  margin: 36px 0 18px;
+}
+
+.section-subhead h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.section-subhead p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -164,6 +178,12 @@ h1 {
 .card p {
   margin: 0;
   color: var(--muted);
+}
+
+.case {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .tags {
